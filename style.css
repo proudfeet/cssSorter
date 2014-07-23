@@ -207,3 +207,15 @@ input:checked ~ img {
 #murraycontroller:checked ~ .billmurray {
   display: inline-block;
 }
+
+#dogecontroller:checked ~ .doge {
+  display: inline-block;
+}
+
+#vanillacontroller:checked ~ .vanillaice {
+  display: inline-block;
+}
+
+#catcontroller:checked ~ .cat {
+  display: inline-block;
+}

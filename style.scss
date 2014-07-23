@@ -38,5 +38,13 @@ input:checked ~ img {
 }
 
 #dogecontroller:checked ~ .doge {
+	display: inline-block;
+}
 
+#vanillacontroller:checked ~ .vanillaice {
+	display: inline-block;
+}
+
+#catcontroller:checked ~ .cat {
+	display: inline-block;
 }
