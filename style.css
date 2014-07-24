@@ -237,3 +237,19 @@ p.another {
   font-size: 25px;
   text-align: center;
 }
+p.another .proudfeet {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: black;
+  border: 5px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+p.another .proudfeet:hover {
+  padding: 5px;
+  background: white;
+  color: black;
+  border: 5px solid black;
+}
