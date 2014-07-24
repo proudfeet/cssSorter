@@ -177,8 +177,7 @@ button::-moz-focus-inner, input::-moz-focus-inner, legend {
 }
 
 .wrapper {
-  margin: 100px auto;
-  border: 1px solid #333;
+  margin: 100px auto 50px;
   width: 96%%;
   max-width: 900px;
   padding: 20px;
@@ -231,4 +230,10 @@ input:checked + label {
 
 #catcontroller:checked ~ .cat {
   display: inline-block;
+}
+
+p.another {
+  margin: 0 auto 50px;
+  font-size: 25px;
+  text-align: center;
 }
