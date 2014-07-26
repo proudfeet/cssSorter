@@ -364,4 +364,7 @@ p.another .proudfeet:hover {
     display: inline-block;
     width: 100%;
   }
+  .wrapper2 .sidebar {
+    bottom: 25px;
+  }
 }
