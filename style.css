@@ -200,20 +200,22 @@ body {
   color: #333;
 }
 
+input {
+  display: none;
+}
+
 .wrapper1 {
   margin: 100px auto 50px;
   width: 96%%;
   max-width: 900px;
   padding: 20px;
 }
-
-img {
+.wrapper1 img {
   max-width: 100%;
   width: 24%;
   margin: 0.25%;
 }
-
-label {
+.wrapper1 label {
   display: inline-block;
   width: 24%;
   padding: 10px;
@@ -227,32 +229,25 @@ label {
   font-size: 20px;
   text-shadow: 1px 1px 1px #333;
 }
-
-input {
+.wrapper1 input {
   display: none;
 }
-
-input:checked ~ img {
+.wrapper1 input:checked ~ img {
   display: none;
 }
-
-input:checked + label {
+.wrapper1 input:checked + label {
   background: #f1c40f;
 }
-
-#murraycontroller:checked ~ .billmurray {
+.wrapper1 #murraycontroller:checked ~ .billmurray {
   display: inline-block;
 }
-
-#dogecontroller:checked ~ .doge {
+.wrapper1 #dogecontroller:checked ~ .doge {
   display: inline-block;
 }
-
-#vanillacontroller:checked ~ .vanillaice {
+.wrapper1 #vanillacontroller:checked ~ .vanillaice {
   display: inline-block;
 }
-
-#catcontroller:checked ~ .cat {
+.wrapper1 #catcontroller:checked ~ .cat {
   display: inline-block;
 }
 

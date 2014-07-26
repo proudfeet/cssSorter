@@ -25,61 +25,65 @@ body {
 	color: #333;
 }
 
+input {
+	display: none;
+}
+
 .wrapper1 {
 	margin: 100px auto 50px;
 	width: 96%%;
 	max-width: 900px;
 	padding: 20px;
-}
 
-img {
-	max-width: 100%;
-	width: 24%;
-	margin: 0.25%;
-}
+	img {
+		max-width: 100%;
+		width: 24%;
+		margin: 0.25%;
+	}
 
-label {
-	display: inline-block;
-	width: 24%;
-	padding: 10px;
-	margin: 0 0.25% 10px;
-	text-align: center;
-	background: $blue;
-	border: 7px solid white;
-	border-radius: 5px;
-	box-shadow: 1px 1px 5px #333;
-	color: white;
-	font-size: 20px;
-	text-shadow: 1px 1px 1px #333;
-}
+	label {
+		display: inline-block;
+		width: 24%;
+		padding: 10px;
+		margin: 0 0.25% 10px;
+		text-align: center;
+		background: $blue;
+		border: 7px solid white;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px #333;
+		color: white;
+		font-size: 20px;
+		text-shadow: 1px 1px 1px #333;
+	}
 
-input {
-	display: none;
-}
+	input {
+		display: none;
+	}
 
-input:checked ~ img {
-	display: none;
-}
+	input:checked ~ img {
+		display: none;
+	}
 
-input:checked + label {
-	background: $yellow;
-}
+	input:checked + label {
+		background: $yellow;
+	}
 
-#murraycontroller:checked ~ .billmurray {
-	display: inline-block;
-}
+	#murraycontroller:checked ~ .billmurray {
+		display: inline-block;
+	}
 
-#dogecontroller:checked ~ .doge {
-	display: inline-block;
-}
+	#dogecontroller:checked ~ .doge {
+		display: inline-block;
+	}
 
-#vanillacontroller:checked ~ .vanillaice {
-	display: inline-block;
-}
+	#vanillacontroller:checked ~ .vanillaice {
+		display: inline-block;
+	}
 
-#catcontroller:checked ~ .cat {
-	display: inline-block;
-}
+	#catcontroller:checked ~ .cat {
+		display: inline-block;
+	}
+}	
 
 p.another {
 	margin: 0 auto 50px;
@@ -104,6 +108,7 @@ p.another {
 	}
 	}
 }
+
 
 .wrapper2 {
  	width: 90%;
